@@ -1,0 +1,32 @@
+{
+  "name": "monitoring-app",
+  "version": "1.0.0",
+  "description": "Monitoring App - The App can help you to Manage your activity projec with simple way",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/or-abdillh/monitoring-app.git"
+  },
+  "keywords": [
+    "monitoring-app",
+    "tailwind",
+    "ajax",
+    "fetch-api"
+  ],
+  "author": "Oka R. Abdillah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/or-abdillh/monitoring-app/issues"
+  },
+  "homepage": "https://github.com/or-abdillh/monitoring-app#readme",
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
